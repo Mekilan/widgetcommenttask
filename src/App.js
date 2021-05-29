@@ -2,7 +2,7 @@ import Commentbox from './Commentbox';
 const App = () => {
   return (
     <div className="ui container">
-      <h2>Widget Commentbox</h2>
+      <h2>Widget Comment Box</h2>
       <Commentbox />
     </div>
   );

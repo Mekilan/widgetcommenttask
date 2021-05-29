@@ -14,7 +14,7 @@ class Commentbox extends Component {
     }
     componentDidMount() {
         axios.get('https://randomuser.me/api/').then(res => {
-            console.log(res);
+
         });
     }
     onComment = (evt) => {
